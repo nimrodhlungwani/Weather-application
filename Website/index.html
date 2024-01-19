@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/weather-icons/css/weather-icons.min.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body onload="insertDate(); fetchWeather()">
+    <header>
+        <div>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="">WEATHER APPLICATION</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="home">
+            <div class="location">San Francisco Bay Area, CA, USA</div>
+            <p id="currentTime" class="currentTime"></p>
+            <div class="weather">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+                <div id="box5" class="box"></div>
+                <div id="box6" class="box"></div>
+                <div id="box7" class="box"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>Copyright&copy;2023. Designed by <span>Nimrod Hlungwani</span></p>
+        </div>
+    </footer>
+</body>
+</html>
